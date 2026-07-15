@@ -12,7 +12,14 @@ This project demonstrates containerizing a web application using Docker. The app
 - CSS
 
 ## ⚙️ How to Run
-
 ### Build Docker Image
-```bash
+````md
 docker build -t my-first-app .
+```
+### Run Docker Container
+```bash
+docker run -d -p 8080:80 --name my-container my-first-app
+```
+
+### Open Application
+http://localhost:8080
