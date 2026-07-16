@@ -1,2 +1,2 @@
-FROM nginx:wrong
+FROM nginx:alpine
 COPY . /usr/share/nginx/html
