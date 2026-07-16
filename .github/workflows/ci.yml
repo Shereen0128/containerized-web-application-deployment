@@ -12,3 +12,6 @@ jobs:
 
         - name: Show Message
           run: echo "Hello Shereen"
+          
+        - name: Build Docker Image
+          run: docker build -t containerized-web .
